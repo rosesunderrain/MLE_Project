@@ -25,4 +25,4 @@ bnds = (b, b)
 
 solution = minimize(MLE_function, param0, bounds = bnds)
 
-print(solution)
+print(type(param0))
