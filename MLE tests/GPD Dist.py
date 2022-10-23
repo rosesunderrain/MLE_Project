@@ -8,7 +8,7 @@ from scipy import stats as st
 
 n = 10000
 mu = 20000
-sigma = 100
+sigma = 150
 xi = 0.3
 probs = np.random.uniform(0, 1, n)
 def GPD_inv(p, mu, sigma, xi):
